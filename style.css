@@ -1,0 +1,101 @@
+body {
+    padding-top: 70px;
+    height: 100%;
+  }
+  .jumbotron {
+    /* background-color: #f8f9fa; */
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 20px;
+  }
+  .jumbotron h1 {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  .jumbotron p {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .section {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+  }
+  .section h2 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .project-card {
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  .project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .project-card .card-body {
+    padding: 20px;
+  }
+  .project-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .project-card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .contact-form {
+    background-color: #f8f9fa;
+    padding: 50px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  .contact-form label {
+    font-weight: bold;
+  }
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  .contact-form input[type="text"]:focus,
+  .contact-form input[type="email"]:focus,
+  .contact-form textarea:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  .contact-form button[type="submit"] {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out;
+  }
+  .contact-form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  body {
+    background: #007bff;
+    background: linear-gradient(to right, #0062e6, #33aeff);
+  }
+  
+  .bg-image {
+    background-image: url("https://source.unsplash.com/kKvQJ6rK6S4/660x1000");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
